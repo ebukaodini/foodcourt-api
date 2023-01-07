@@ -18,6 +18,9 @@ $ npm install
 > Note: Docker is required to run the application locally.
 
 ```bash
+# setup nest on local machine
+$ npm run setup
+
 # start database
 $ npm run start:database
 
@@ -98,7 +101,7 @@ $ npm run clean
 
 ## Deployed API
 
-The API is deployed on [Render]()
+The API is deployed on [Render](https://foodcourt.onrender.com)
 
 ## Postman documentation
 
