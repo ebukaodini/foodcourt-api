@@ -21,7 +21,7 @@
     "knex": "knex --knexfile knexfile.ts",
     "migrate:make": "npm run knex migrate:make -- -x ts",
     "migrate": "npm run knex migrate:latest",
-    "migrate:down": "NODE_ENV=test npm run knex migrate:rollback --all",
+    "migrate:down": "npm run knex migrate:rollback --all",
     "seed:make": "npm run knex seed:make -- -x ts",
     "seed": "npm run knex seed:run",
     "start:database": "docker-compose up -d",
