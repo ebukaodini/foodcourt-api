@@ -107,6 +107,8 @@ The API is deployed on [Render](https://foodcourt.onrender.com)
 
 Test with [Postman](https://documenter.getpostman.com/view/6884204/2s8Z75S9fJ)
 
+To test the deployed API on Postman, update the `{{apiUrl}}` variable to `https://foodcourt.onrender.com`.
+
 ## License
 
 This project is [MIT licensed](./LICENSE).
